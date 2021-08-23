@@ -1,0 +1,253 @@
+# Page settings
+
+baseurl = "https://resume.ebodera.com/"
+languageCode = "en-us"
+title = "Emanuel Boderash Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Emanuel Boderash"
+        tagline = "Full Stack Developer"
+        avatar = "avatar.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: hello@ebodera.com"
+        title = "hello@ebodera.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+6464502093"
+        title = "+6464502093"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//ebodera.com"
+        title = "ebodera.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/ebodera"
+        title = "linkedin.com/in/ebodera"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/ebodera"
+        title = "github.com/ebodera"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/ebodera"
+        title = "@ebodera"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BS in Computer Science"
+        college = "Arizona State University"
+        dates = "2017"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Romanian"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Intermediate"
+
+        [[params.language.list]]
+        language = "German"
+        level = "Elementary"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Powerlifting"
+
+        [[params.interests.list]]
+        interest = "Meditation & Yoga"
+
+        [[params.interests.list]]
+        interest = "Solo backpacking"
+
+        [[params.interests.list]]
+        interest = "Art film"
+
+        [[params.interests.list]]
+        interest = "Piano"
+
+        [[params.interests.list]]
+        interest = "Skydiving"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "DevOps engineer with experience in Python, Docker and Kubernetes. Program manager in open-source vulnerability management. Background in Cybersecurity."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Engineer"
+        dates = "2017 - Present"
+        company = "American Express"
+        details = "Lead open-source vulnerability management program using Agile methodologies. Develop async chatbot for enterprise developer community deployed with Docker & Kubernete. Deploy to production a Django based web application in OpenShift enterprise cloud platform, utilizing Docker, Kubernetes, NGINX, PostgreSQL, Redis, Kafka, Vault. Containerize over twenty Python applications in multi-stage Docker builds utilizing Jenkins, for reliable, scheduled API ingestion from vendor tools into Splunk, deployed on Ubuntu & RHEL."
+
+        [[params.jobs.list]]
+        position = "Intern"
+        dates = "2016 - 2017"
+        company = "Arizona Cyber Warfare Range"
+        details = "Develop malware analysis lab to reverse-engineer x86 using IDA Pro, GDB, Cuckoo, VMCloak."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        #intro = ""
+
+        [[params.projects.list]]
+        title = "trade-bot"
+        url = "https://github.com/ebodera/trade-bot"
+        tagline = "Bot that trades stocks using Alpaca API and custom algorithms, written in Go."
+
+        [[params.projects.list]]
+        title = "pctf"
+        url = "https://github.com/ebodera/pctf"
+        tagline = "Tools for pctf from Software Security graduate course. System used in the attack/defense style ctf competition, comprising of several components: exploit manager, service analyzer, traffic monitor."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Docker"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Linux"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Git"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Kubernetes"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "C"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Java"
+        level = "50%"
+
+        [[params.skills.list]]
+        skill = "Go"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "Bash"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "Splunk"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "Django"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "NGINX"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "Redis"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "Kafka"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "20%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
