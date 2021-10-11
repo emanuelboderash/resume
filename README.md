@@ -1,6 +1,6 @@
 # Resume Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/76bf25bb-20d8-4370-a115-d7d8ea0c1ee1/deploy-status)](https://app.netlify.com/sites/ebodera-resume/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/76bf25bb-20d8-4370-a115-d7d8ea0c1ee1/deploy-status)](https://app.netlify.com/sites/emanuelboderash-resume/deploys)
 
 ## Thanks to
 
