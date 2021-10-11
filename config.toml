@@ -166,12 +166,12 @@ disable404 = true
 
         [[params.projects.list]]
         title = "trade-bot"
-        url = "https://github.com/ebodera/trade-bot"
+        url = "https://github.com/emanuelboderash/trade-bot"
         tagline = "Bot that trades stocks using Alpaca API and custom algorithms, written in Go."
 
         [[params.projects.list]]
         title = "pctf"
-        url = "https://github.com/ebodera/pctf"
+        url = "https://github.com/emanuelboderash/pctf"
         tagline = "Tools for pctf from Software Security graduate course. System used in the attack/defense style ctf competition, comprising of several components: exploit manager, service analyzer, traffic monitor."
 
     # Skills section
