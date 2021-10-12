@@ -59,8 +59,8 @@ disable404 = true
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/ebodera"
-        title = "linkedin.com/in/ebodera"
+        url = "//linkedin.com/in/emanuelboderash"
+        title = "linkedin.com/in/emanuelboderash"
 
         [[params.contact.list]]
         class = "github"
