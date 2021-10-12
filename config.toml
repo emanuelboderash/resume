@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://resume.ebodera.com/"
+baseurl = "https://resume.emanuelboderash.com/"
 languageCode = "en-us"
 title = "Emanuel Boderash Resume"
 theme = "hugo-orbit-theme"
@@ -53,14 +53,14 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//ebodera.com"
-        title = "ebodera.com"
+        url = "//emanuelboderash.com"
+        title = "emanuelboderash.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/ebodera"
-        title = "linkedin.com/in/ebodera"
+        url = "//linkedin.com/in/emanuelboderash"
+        title = "linkedin.com/in/emanuelboderash"
 
         [[params.contact.list]]
         class = "github"
