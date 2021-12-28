@@ -149,7 +149,7 @@ disable404 = true
         position = "Engineer"
         dates = "2017 - Present"
         company = "American Express"
-        details = "Lead open-source vulnerability management program using Agile methodologies. Develop async chatbot for enterprise developer community deployed with Docker & Kubernetes. Deploy to production a Django based web application in OpenShift enterprise cloud platform, utilizing Docker, Kubernetes, NGINX, PostgreSQL, Redis, Kafka, Vault. Containerize over twenty Python applications in multi-stage Docker builds utilizing Jenkins, for reliable, scheduled API ingestion from vendor tools into Splunk, deployed on Ubuntu & RHEL."
+        details = "Develop async chatbot for enterprise developer community deployed with Docker & Kubernetes. Deploy to production a Django based web application in OpenShift enterprise cloud platform, utilizing Docker, Kubernetes, NGINX, PostgreSQL, Redis, Kafka, Vault. Containerize over twenty Python applications in multi-stage Docker builds utilizing Jenkins, for reliable, scheduled API ingestion from vendor tools into Splunk, deployed on Ubuntu & RHEL."
 
         [[params.jobs.list]]
         position = "Intern"
