@@ -39,16 +39,16 @@ disable404 = true
         enable = true
 
         [[params.contact.list]]
-        class = "email"
-        icon = "fa-envelope"
-        url = "mailto: hello@ebodera.com"
-        title = "hello@ebodera.com"
-
-        [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
         url = "tel:+4803826107"
         title = "+4803826107"
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: hello@ebodera.com"
+        title = "hello@ebodera.com"
 
         [[params.contact.list]]
         class = "website"
