@@ -60,13 +60,13 @@ disable404 = true
         class = "linkedin"
         icon = "fa-linkedin"
         url = "//linkedin.com/in/emanuelboderash"
-        title = "linkedin.com/in/emanuelboderash"
+        title = "@emanuelboderash"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
         url = "//github.com/emanuelboderash"
-        title = "github.com/emanuelboderash"
+        title = "@emanuelboderash"
 
         [[params.contact.list]]
         class = "twitter"
